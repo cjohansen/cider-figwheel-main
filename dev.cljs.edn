@@ -1,0 +1,9 @@
+^{:watch-dirs ["src"]
+  :open-file-command "emacsclient"}
+{:main "sample-app.core"
+ :optimizations :none
+ :pretty-print true
+ :target :nodejs
+ :source-map true
+ :npm-deps {:puppeteer "1.8.0"}
+ :install-deps true}
